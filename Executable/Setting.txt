@@ -1,0 +1,5 @@
+Type: True
+Pre-Post: False
+KD: False
+CTL: False
+Data_Location: dataset/
