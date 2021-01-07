@@ -7,4 +7,5 @@
 - Requirements for dimension reduction methods: python, sklearn, numpy
 - Requirements for spine detection: matlab
 - Test dataset is included /Executable/dataset/neuron3
-- For fast starting: run /Executable/SpineAnalysis.exe --> add group by pressing + button --> load /Executable/dataset/neuron3/dataset.DXplorerInfo by pressing + button on the generated group
+- For fast starting: 
+  run /Executable/SpineAnalysis.exe => add group by pressing + button => load /Executable/dataset/neuron3/dataset.DXplorerInfo by pressing + button on the generated group
