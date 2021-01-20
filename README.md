@@ -1,6 +1,6 @@
 # A Unified Visualization Framework for Interactive Dendritic Spine Analysis using 3D Morphological Features
 
-This repository includes [compiled standalone software](#https://github.com/hvcl/SpineAnalysis_public/Executable) and [source code](#https://github.com/hvcl/SpineAnalysis_public/Code)
+This repository includes [compiled standalone software](https://github.com/hvcl/SpineAnalysis_public/Executable) and [source code](https://github.com/hvcl/SpineAnalysis_public/Code)
 
 ## Contents
 
