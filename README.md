@@ -19,8 +19,15 @@ Dendritic spines are submicron-scale protrusions on neuronal dendrites that form
 
 - Tested running environment: Windows 10, 3D structured illumination microscopy (SIM) data (0.032um x 0.032um x 0.12um) 
 - Requirements for program execution: [Visual C++](https://aka.ms/vs/16/release/vc_redist.x64.exe)
-- Requirements for dimension reduction methods (PCA, UMAP, tSNE): python, sklearn, numpy, umap
+- Requirements for dimension reduction methods (PCA, UMAP, tSNE) and classification (random forest): python, sklearn, numpy, umap
 - Requirements for spine detection: matlab
+
+# Installation Guide
+
+- For source build: The source code is implemented with QT creator and complied with Qt 5.10.1 MSVC2017 64bit (build time is less than 5 minutes on a normal desktop computer)
+- For compiled standalone software: No installation is needed for complied standalone software. Just download /Executable repository and run /Executable/SpineAnalysis.exe
 
 # For Testing
 - run /Executable/SpineAnalysis.exe => add group by pressing + button => load /Executable/dataset/neuron3/dataset.DXplorerInfo by pressing + button on the generated group
+## Expected output
+![Example view 1](output_layout1.JPG) ![Example view 2](output_layout2.JPG)
