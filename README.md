@@ -31,3 +31,7 @@ Dendritic spines are submicron-scale protrusions on neuronal dendrites that form
 - run /Executable/SpineAnalysis.exe => add group by pressing + button => load /Executable/dataset/neuron3/dataset.DXplorerInfo by pressing + button on the generated group
 ## Expected output
 ![Example view](output_example.png)
+
+# System Scalability Test
+- We tested the system's frame rates and memory consumptions with various size of the dataset
+![Result](scalability.png)
