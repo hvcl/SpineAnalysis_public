@@ -8,6 +8,7 @@ This repository includes [compiled standalone software](https://github.com/hvcl/
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
 - [Instructions For Use](#for-testing)
+- [System Scalability](#system-scalability-test)
 
 ![Workflow of the spine analysis](workflow.png)
 
