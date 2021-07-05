@@ -21,7 +21,7 @@ Dendritic spines are submicron-scale protrusions on neuronal dendrites that form
 - Tested running environment: Windows 10, 3D structured illumination microscopy (SIM) data (0.032um x 0.032um x 0.12um) 
 - Requirements for program execution: [Visual C++](https://aka.ms/vs/16/release/vc_redist.x64.exe)
 - Requirements for dimension reduction methods (PCA, UMAP, tSNE) and classification (random forest): python, sklearn, numpy, umap
-- Requirements for spine detection: matlab
+- Requirements for spine detection: MATLAB Runtime
 
 # Installation Guide
 
@@ -36,3 +36,14 @@ Dendritic spines are submicron-scale protrusions on neuronal dendrites that form
 # System Scalability Test
 - We tested the system's frame rates and memory consumptions with various size of the dataset
 ![Result](scalability.png)
+
+# Matlab Code for Spine Detection and Feature Extraction
+- (/Matlab_Code/ )
+These codes is extended from the research of Kashiwagi et al. 
+(Kashiwagi, Yutaro, et al. "Computational geometry analysis of dendritic spines by structured illumination microscopy." Nature communications 10.1 (2019): 1-14.) 
+
+- [DendriticSpineImageProcessing.m] 
+This script is a main funcion. You can run the function with this command,
+
+- DendriticSpineImageProcessing(inputPath,resultPath)
+(e.g, DendriticSpineImageProcessing('C:/1.tif','C:/test/'))
