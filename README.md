@@ -39,7 +39,7 @@ Dendritic spines are submicron-scale protrusions on neuronal dendrites that form
 
 # Matlab Code for Spine Detection and Feature Extraction
 - (/Matlab_Code/ )
-These codes is extended from the research of Kashiwagi et al. 
+These codes are extended from the research of Kashiwagi et al. 
 (Kashiwagi, Yutaro, et al. "Computational geometry analysis of dendritic spines by structured illumination microscopy." Nature communications 10.1 (2019): 1-14.) 
 
 - [DendriticSpineImageProcessing.m] 
